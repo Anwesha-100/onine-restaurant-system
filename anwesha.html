@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anwesha.css">
+    <title>Restaurant Automation System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Payment Options</h1>
+        <form id="payment-form">
+            <label for="payment-method">Select Payment Method:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="credit-card">Credit Card</option>
+                <option value="cash">Cash</option>
+                <option value="paypal">PayPal</option>
+            </select>
+            <div id="credit-card-details" class="payment-details">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number">
+                <label for="exp-date">Expiration Date:</label>
+                <input type="text" id="exp-date" name="exp-date">
+            </div>
+            <button type="submit">Submit Payment</button>
+        </form>
+    </div>
+    <script src="anwesha.js"></script>
+</body>
+</html>
